@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Análisis de titulares deportivos | BBC Sport</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      padding: 40px;
+      color: #1f2937;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #1e3a8a;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #4b5563;
+      font-size: 1rem;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 22px;
+      border-radius: 14px;
+      margin-bottom: 22px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #111827;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f9fafb;
+    }
+
+    tr:hover {
+      background-color: #eef2ff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>⚽ Análisis de titulares deportivos en BBC Sport</h1>
+  <p class="subtitle">
+    Proyecto de periodismo de datos · Scraping y análisis básico con Python
+  </p>
+  <p><strong>Autora:</strong> Shamira Legua — Enero 2026</p>
+</header>
+
+<div class="card">
+  <h2>🎯 Objetivo del proyecto</h2>
+  <p>
+    Analizar los titulares recientes de la sección <strong>Football</strong> del medio
+    <em>BBC Sport</em>, con el fin de identificar patrones básicos en el lenguaje del
+    periodismo deportivo digital mediante técnicas de scraping y procesamiento de datos.
+  </p>
+</div>
+
+<div class="card">
+  <h2>📌 Métricas generales</h2>
+  <ul>
+    <li>Total de titulares analizados: <strong>154</strong></li>
+    <li>Fuente periodística: <strong>BBC Sport</strong></li>
+    <li>Temática: <strong>Fútbol</strong></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>📥 Descarga de datos</h2>
+  <ul>
+    <li><a href="../data/raw.csv">Dataset original (raw.csv)</a></li>
+    <li><a href="../data/clean.csv">Dataset limpio (clean.csv)</a></li>
+    <li><a href="../data/summary.csv">Resumen estadístico (summary.csv)</a></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>📊 Top 20 palabras más frecuentes en titulares</h2>
+  <table>
+    <tr>
+      <th>Palabra</th>
+      <th>Frecuencia</th>
+    </tr>
+    <!-- Puedes completar algunas filas manualmente si deseas -->
+    <tr><td>football</td><td>XX</td></tr>
+    <tr><td>match</td><td>XX</td></tr>
+    <tr><td>win</td><td>XX</td></tr>
+    <tr><td>team</td><td>XX</td></tr>
+    <tr><td>goal</td><td>XX</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h2>🔎 Principales hallazgos</h2>
+  <ul>
+    <li>Predominan palabras asociadas a partidos, resultados y competencia.</li>
+    <li>Alta presencia de nombres de equipos y eventos futbolísticos.</li>
+    <li>Lenguaje orientado a la inmediatez y al impacto informativo.</li>
+  </ul>
+</div>
+
+<footer>
+  <p>
+    Proyecto académico realizado con Python, BeautifulSoup y GitHub Pages.
+  </p>
+  <p>
+    <a href="#">⬆️ Volver arriba</a>
+  </p>
+</footer>
+
+</body>
+</html>
+
